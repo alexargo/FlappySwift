@@ -32,4 +32,12 @@ class FlappyBirdTests: XCTestCase {
         }
     }
     
+    func testTheThing() {
+        XCTAssert(1+2==3, "Math doesn't work")
+    }
+    
+//    func testTheBrokenThing() {
+//        XCTAssert(false, "Yup... this one fails")
+//    }
+    
 }
